@@ -1,0 +1,143 @@
+
+/*importar fuentes cutomizadas*/
+
+@font-face{
+	font-family:"yanone";
+	src: url("../fonts/yanone.ttf");
+}
+@font-face{
+	font-family: "finger";
+	src: url("../fonts/finger.ttf");
+}
+
+/* generales*/
+
+*{
+	margin:  0px;
+	padding: 0px;
+}
+
+body{
+	font-family: "yanone", arial,helvetica !important;
+	font-size: 20px;
+	background-image: url('../img/pattern.png');
+	background-attachment: none;
+
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+/*cabecera /aside izquierdo */
+
+aside{
+		position: fixed;
+		min-width: 165px;
+        background:rgba(53 ,103, 164,0.8);
+        top: 0;
+        bottom: 0; 
+
+}
+aside h1{
+	font-size: 25px;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+aside ul{
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	list-style: none;
+
+	
+}
+
+aside ul a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+#content{
+
+	
+	padding-left: 200px;
+	margin-top: 50px;
+}
+
+#content h1{
+	padding-left: 30px;
+}
+
+/*formulario*/
+form{
+	padding-left: 30px;
+}
+
+form label{
+	padding-right: 5px;
+	display: block;
+	padding-top: 5px;
+}
+
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+mat-form-field{
+	width: 20%;
+	min-width: 220px;
+	padding: 3px;
+}
+
+mat-form-field{
+	font-size: 12px !important;
+	background-color: white;
+
+}
+
+form input[type="submit"]{
+	display: block;
+	padding: 5px;
+	margin-top: 15px;
+	color:white;
+	background: rgba(53, 103, 164, 1);
+	border: 1px solid rgba(13, 67, 133, 1);
+	cursor: pointer;
+
+
+
+}
+form input[disabled]{
+	opacity: 0.4;
+	cursor: not-allowed;
+}
+
+/*detalle*/
+
+table{
+
+
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: white;
+}
+
+td,tr{
+	border:1px solid black;
+	width: 80px;
+	padding-top: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

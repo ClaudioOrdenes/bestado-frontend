@@ -1,0 +1,31 @@
+
+<div>
+
+	<h1>{{title}}</h1>
+
+<div>
+<div>
+	<table>
+		<tr>
+			<th>AFP</th>
+			<th>Fondo A</th>
+			<th>Fondo B</th>
+			<th>Fondo C</th>
+			<th>Fondo D</th>
+			<th>Fondo E</th>
+			<th>Fecha</th>
+		</tr>
+
+		<tr *ngFor="let fondo of fondos" class="fondos">
+			<td>{{fondo.afp}}</td>
+			<td>{{fondo.fondoa}}</td>
+			<td>{{fondo.fondob}}</td>
+			<td>{{fondo.fondoc}}</td>
+			<td>{{fondo.fondod}}</td>
+			<td>{{fondo.fondoe}}</td>
+			<td>{{fondo.date}}</td>
+	
+		</tr>
+
+	</table>
+</div>
